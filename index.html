@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Musica</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://kit.fontawesome.com/3ec3c7a01e.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <div class="container">
+    <header>
+
+      <img class="logo" src="./img/logo.svg" alt="error">
+
+      <nav class="navmobile">
+
+        <input type="checkbox" id="menu" />
+        <label for="menu" class="labelmenu">
+          <span id="span1"></span>
+          <span id="span2"></span>
+          <span id="span3"></span>
+        </label>
+        <ul>
+          <li><a class="link" href="#episodes">EPISODIOS</a></li>
+          <li><a class="link" href="#nosotros">NOSOTROS</a></li>
+          <li><a class="link" href="#entrevistas">ENTREVISTAS</a></li>
+          <li><a class="link" href="#topicos">TÓPICOS</a></li>
+        </ul>
+
+      </nav>
+      <nav class="navdesktop">
+
+        <div><a class="link" href="#episodes">EPISODIOS</a></div>
+        <div><a class="link" href="#nosotros">NOSOTROS</a></div>
+        <div><a class="link" href="#entrevistas">ENTREVISTAS</a></div>
+        <div><a class="link" href="#topicos">TÓPICOS</a></div>
+
+      </nav>
+    </header>
+
+    <div class="description1">
+      <div class="text">
+        <h1>Hello <span class="world">world</span> pale blue dot<span class=point>.</span></h1>
+        <br>
+        <p class="descriptionmobile">
+          Un podcast que explora el mundo de la programación. Nuevos episodios. Todos los jueves cada 15 días.
+        </p>
+        <p class="descriptiondesktop">
+          El portal de podcast que explora el mundo de la programación y la tecnología.Nuevos episodios, todos los
+          jueves cada 15 días.
+        </p>
+        <br>
+      </div>
+      <button class="button1"
+        onclick="location.href='https://open.spotify.com/show/6S2x2WkE2BI6OPwusubUxt?si=nbEw_qYPRcKRiG-c_Jh9nw'">
+        CONOCÉ MÁS
+      </button>
+    </div>
+    <div class="episodes" id="episodes">
+
+      <svg class="triangle1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polygon fill="white" points="100,0 0,100 0,0" />
+      </svg>
+      <h2>Episodios</h2>
+      <br><br>
+      <div class="podcast">
+        <iframe src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt" ></iframe>
+        <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" ></iframe>
+        <iframe src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv" ></iframe>
+        <iframe src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn" ></iframe>
+
+      </div>
+
+ 
+    </div>
+    <div class="triangle2"></div>
+
+
+    <div class="wcoding" id="nosotros">
+      <div class="wcodingimg">
+        <img src="./img/phone.png" alt="error">
+      </div>
+      <div class="wcodingtxt">
+        <h2>De dónde venimos</h2>
+        <br><br>
+        <p>
+          Our posturings, our imagined self-importance, the delusion that we have some privileged position in the
+          Universe, are challenged by this point of pale light.
+          <br>
+          <br>
+          Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness,
+          there is no hint that help will come from elsewhere to save us from ourselves.
+        </p>
+      </div>
+    </div>
+    <div class="guest" id="entrevistas">
+      <div class="txtguest">
+        <h2>Invitadas/os estelares</h2>
+      </div>
+      <div class="imgguest">
+        <img src="./img/grace-hopper.png" alt="error">
+        <img src="./img/Katie-Bouman.png" alt="error">
+        <img src="./img/Margaret_Hamilton.png" alt="error">
+        <img src="./img/An_E.R.A.Univac_1103_computer_in_the_1950s.png" alt="error">
+        <img src="./img/Computer_operators_with_an_Eniac_the_worlds_first_programmable_general_purpose_computer.png"
+          alt="error">
+        <img src="./img/susan-kare.png" alt="error">
+      </div>
+    </div>
+    <div class="themes">
+      <h2>Algunos de nuestros temas</h2>
+      <br>
+      <div class="imgthemes" id="topicos">
+        <div><img src="./img/icon1.svg" alt="error">
+          <p>Trabajo remoto</p>
+        </div>
+        <div><img src="./img/icon2.svg" alt="error">
+          <p>Repensando la <br>programación</p>
+        </div>
+        <div><img src="./img/icon3.svg" alt="error">
+          <p>Bases del código</p>
+        </div>
+        <div><img src="./img/icon4.svg" alt="error">
+          <p>Seguridad <br>informática</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="lastestnews">
+      <svg class="triangle3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polygon fill="white" points="100 ,0 0,100 0,0" />
+      </svg>
+      <div class="lastestnews_1">
+        <h2>
+          ¿Querés las últimas novedades?
+        </h2>
+        <button class="button2"
+          onclick="location.href='https://open.spotify.com/show/1B8g8K40hS6I56m0i6pq8i?si=t-6_KIHUTfyioYrNSpFRgA'">
+          ESCUCHÁ LOS EPISODIOS
+        </button>
+        <br><br><br>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="footer_1">
+        <p> © 2019- Hello blue pale dot</p>
+      </div>
+      <div class="footer_2">
+        <i class="fab fa-spotify"
+          onclick="location.href='https://open.spotify.com/playlist/3n0T3K00adPjvraGEvTPSC?si=VYOh2aNVRdumpfj9hu2ikw'"></i>
+        <i class="fab fa-instagram" onclick="location.href='https://www.instagram.com/acamica/?hl=es-la'"></i>
+        <i class="fab fa-twitter"
+          onclick="location.href='https://twitter.com/Acamica_com?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor'"></i>
+        <i class="fab fa-facebook" onclick="location.href='https://es-la.facebook.com/Acamica.org/'"></i>
+        <i class="fab fa-telegram" onclick="location.href='https://web.telegram.org/#/login'"></i>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
